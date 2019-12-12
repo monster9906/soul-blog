@@ -1,0 +1,644 @@
+2019-12-12 20:49:24.748  INFO 4276 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Starting SoulBlogApplication on DESKTOP-0RUOU6F with PID 4276 (F:\develop\idea_space\soul-blog\target\classes started by soul in F:\develop\idea_space\soul-blog)
+2019-12-12 20:49:24.771 DEBUG 4276 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-12 20:49:24.773  INFO 4276 --- [restartedMain] com.soul.blog.SoulBlogApplication        : The following profiles are active: dev
+2019-12-12 20:49:25.061  INFO 4276 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in F:\develop\developsoft\maven3.5\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-12-12 20:49:25.062  INFO 4276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-12 20:49:25.063  INFO 4276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-12 20:49:28.343  INFO 4276 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 20:49:28.692  INFO 4276 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 312ms. Found 4 repository interfaces.
+2019-12-12 20:49:29.813  INFO 4276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 20:49:31.555  INFO 4276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-12 20:49:31.609  INFO 4276 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-12 20:49:31.610  INFO 4276 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-12 20:49:32.007  INFO 4276 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-12 20:49:32.008  INFO 4276 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6944 ms
+2019-12-12 20:49:32.727  INFO 4276 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-12 20:49:33.043  INFO 4276 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-12 20:49:33.682  INFO 4276 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-12 20:49:34.152  INFO 4276 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-12 20:49:34.157  WARN 4276 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-12-12 20:49:34.640  INFO 4276 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-12 20:49:34.725  INFO 4276 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2019-12-12 20:49:39.132  INFO 4276 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-12 20:49:39.287  INFO 4276 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-12 20:49:39.651  INFO 4276 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-12 20:49:43.324  WARN 4276 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-12 20:49:44.210  INFO 4276 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-12 20:49:44.899  INFO 4276 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-12 20:49:46.185  INFO 4276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-12 20:49:46.196  INFO 4276 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Started SoulBlogApplication in 24.869 seconds (JVM running for 38.159)
+2019-12-12 20:50:19.054  INFO 4276 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-12 20:50:19.056  INFO 4276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-12 20:50:19.094  INFO 4276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 38 ms
+2019-12-12 20:50:19.217  INFO 4276 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.toIndex', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}-------------------
+2019-12-12 20:50:19.615  WARN 4276 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-12-12 20:50:19.658  WARN 4276 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-12-12 20:50:19.678  INFO 4276 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Result ： index-------------------
+2019-12-12 20:50:22.643  INFO 4276 --- [http-nio-8080-exec-8] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 20:50:22.654  INFO 4276 --- [http-nio-8080-exec-8] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 20:50:37.746  INFO 4276 --- [http-nio-8080-exec-9] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}-------------------
+2019-12-12 20:50:37.892  INFO 4276 --- [http-nio-8080-exec-9] com.soul.blog.aspect.LoggerAspect        : -----------Result ： types-------------------
+2019-12-12 20:50:39.277  INFO 4276 --- [http-nio-8080-exec-3] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 20:50:39.288  INFO 4276 --- [http-nio-8080-exec-3] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 20:50:41.534  INFO 4276 --- [http-nio-8080-exec-7] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.toIndex', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}-------------------
+2019-12-12 20:50:41.554  INFO 4276 --- [http-nio-8080-exec-7] com.soul.blog.aspect.LoggerAspect        : -----------Result ： index-------------------
+2019-12-12 20:50:43.039  INFO 4276 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 20:50:43.046  INFO 4276 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:12:01.572  INFO 4276 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-12 21:12:01.576  INFO 4276 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-12 21:12:01.633  INFO 4276 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-12-12 21:12:01.672  INFO 4276 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-12-12 21:12:19.478  INFO 14152 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Starting SoulBlogApplication on DESKTOP-0RUOU6F with PID 14152 (F:\develop\idea_space\soul-blog\target\classes started by soul in F:\develop\idea_space\soul-blog)
+2019-12-12 21:12:19.504 DEBUG 14152 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-12 21:12:19.504  INFO 14152 --- [restartedMain] com.soul.blog.SoulBlogApplication        : The following profiles are active: dev
+2019-12-12 21:12:19.605  INFO 14152 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in F:\develop\developsoft\maven3.5\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-12-12 21:12:19.605  INFO 14152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-12 21:12:19.606  INFO 14152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-12 21:12:21.111  INFO 14152 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 21:12:21.269  INFO 14152 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 145ms. Found 5 repository interfaces.
+2019-12-12 21:12:21.897  INFO 14152 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 21:12:23.801  INFO 14152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-12 21:12:23.848  INFO 14152 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-12 21:12:23.849  INFO 14152 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-12 21:12:24.147  INFO 14152 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-12 21:12:24.147  INFO 14152 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4541 ms
+2019-12-12 21:12:24.884  INFO 14152 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-12 21:12:25.252  INFO 14152 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-12 21:12:25.824  INFO 14152 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-12 21:12:26.168  INFO 14152 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-12 21:12:26.170  WARN 14152 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-12-12 21:12:26.532  INFO 14152 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-12 21:12:26.608  INFO 14152 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2019-12-12 21:12:29.240  INFO 14152 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-12 21:12:29.262  INFO 14152 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-12 21:12:29.341  INFO 14152 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-12 21:12:31.082  WARN 14152 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-12 21:12:31.469  INFO 14152 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-12 21:12:31.663  INFO 14152 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-12 21:12:32.595  INFO 14152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-12 21:12:32.600  INFO 14152 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Started SoulBlogApplication in 15.585 seconds (JVM running for 20.126)
+2019-12-12 21:13:26.410  INFO 14152 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-12 21:13:26.410  INFO 14152 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-12 21:13:26.430  INFO 14152 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2019-12-12 21:13:26.507  INFO 14152 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.toIndex', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}-------------------
+2019-12-12 21:13:26.722  WARN 14152 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-12-12 21:13:26.740  WARN 14152 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-12-12 21:13:26.750  INFO 14152 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Result ： index-------------------
+2019-12-12 21:13:28.533  INFO 14152 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:13:28.560  INFO 14152 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:13:49.337  INFO 14152 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/blog/1', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.blog', args=[1, {}]}-------------------
+2019-12-12 21:13:49.564  INFO 14152 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Result ： blog-------------------
+2019-12-12 21:13:51.521  INFO 14152 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:13:51.529  INFO 14152 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:13:51.738  INFO 14152 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/comments/1', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.CommentController.comments', args=[1, {}]}-------------------
+2019-12-12 21:13:51.824  INFO 14152 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Result ： blog :: commentList-------------------
+2019-12-12 21:14:15.369  INFO 14152 --- [http-nio-8080-exec-5] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.CommentController.post', args=[com.soul.blog.domain.Comment@18a39b3c, org.apache.catalina.session.StandardSessionFacade@e840047]}-------------------
+2019-12-12 21:14:15.502  INFO 14152 --- [http-nio-8080-exec-5] com.soul.blog.aspect.LoggerAspect        : -----------Result ： redirect:/comments/1-------------------
+2019-12-12 21:14:15.560  INFO 14152 --- [http-nio-8080-exec-2] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/comments/1;jsessionid=C3E21B84D6860C56888B953372834C22', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.CommentController.comments', args=[1, {}]}-------------------
+2019-12-12 21:14:15.568  INFO 14152 --- [http-nio-8080-exec-2] com.soul.blog.aspect.LoggerAspect        : -----------Result ： blog :: commentList-------------------
+2019-12-12 21:14:23.158  INFO 14152 --- [http-nio-8080-exec-9] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.CommentController.post', args=[com.soul.blog.domain.Comment@8215433, org.apache.catalina.session.StandardSessionFacade@e840047]}-------------------
+2019-12-12 21:14:23.287  INFO 14152 --- [http-nio-8080-exec-9] com.soul.blog.aspect.LoggerAspect        : -----------Result ： redirect:/comments/1-------------------
+2019-12-12 21:14:23.295  INFO 14152 --- [http-nio-8080-exec-3] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/comments/1', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.CommentController.comments', args=[1, {}]}-------------------
+2019-12-12 21:14:23.307  INFO 14152 --- [http-nio-8080-exec-3] com.soul.blog.aspect.LoggerAspect        : -----------Result ： blog :: commentList-------------------
+2019-12-12 21:14:46.776  INFO 14152 --- [http-nio-8080-exec-6] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}-------------------
+2019-12-12 21:14:46.803  INFO 14152 --- [http-nio-8080-exec-6] com.soul.blog.aspect.LoggerAspect        : -----------Result ： types-------------------
+2019-12-12 21:14:47.572  INFO 14152 --- [http-nio-8080-exec-10] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:14:47.579  INFO 14152 --- [http-nio-8080-exec-10] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:14:49.967  INFO 14152 --- [http-nio-8080-exec-2] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/types/2', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]}-------------------
+2019-12-12 21:14:49.976  INFO 14152 --- [http-nio-8080-exec-2] com.soul.blog.aspect.LoggerAspect        : -----------Result ： types-------------------
+2019-12-12 21:14:50.698  INFO 14152 --- [http-nio-8080-exec-6] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:14:50.704  INFO 14152 --- [http-nio-8080-exec-6] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:14:52.366  INFO 14152 --- [http-nio-8080-exec-10] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/types/11', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 11, {}]}-------------------
+2019-12-12 21:14:52.378  INFO 14152 --- [http-nio-8080-exec-10] com.soul.blog.aspect.LoggerAspect        : -----------Result ： types-------------------
+2019-12-12 21:14:53.092  INFO 14152 --- [http-nio-8080-exec-3] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:14:53.099  INFO 14152 --- [http-nio-8080-exec-3] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:14:54.451  INFO 14152 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/types/10', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 10, {}]}-------------------
+2019-12-12 21:14:54.460  INFO 14152 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Result ： types-------------------
+2019-12-12 21:14:55.218  INFO 14152 --- [http-nio-8080-exec-10] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:14:55.226  INFO 14152 --- [http-nio-8080-exec-10] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:14:56.117  INFO 14152 --- [http-nio-8080-exec-5] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}-------------------
+2019-12-12 21:14:56.184  INFO 14152 --- [http-nio-8080-exec-5] com.soul.blog.aspect.LoggerAspect        : -----------Result ： tags-------------------
+2019-12-12 21:14:56.883  INFO 14152 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:14:56.889  INFO 14152 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:15:01.935  INFO 14152 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.ArchiveShowController.archives', args=[{}]}-------------------
+2019-12-12 21:15:01.953  INFO 14152 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Result ： archives-------------------
+2019-12-12 21:15:02.665  INFO 14152 --- [http-nio-8080-exec-2] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:15:02.670  INFO 14152 --- [http-nio-8080-exec-2] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:15:04.434  INFO 14152 --- [http-nio-8080-exec-8] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 21:15:04.443  INFO 14152 --- [http-nio-8080-exec-8] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 21:15:05.216  INFO 14152 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:15:05.223  INFO 14152 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:20:50.157  INFO 7140 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Starting SoulBlogApplication on DESKTOP-0RUOU6F with PID 7140 (F:\develop\idea_space\soul-blog\target\classes started by soul in F:\develop\idea_space\soul-blog)
+2019-12-12 21:20:50.162 DEBUG 7140 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-12 21:20:50.163  INFO 7140 --- [restartedMain] com.soul.blog.SoulBlogApplication        : The following profiles are active: dev
+2019-12-12 21:20:50.443  INFO 7140 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in F:\develop\developsoft\maven3.5\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-12-12 21:20:50.444  INFO 7140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-12 21:20:50.445  INFO 7140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-12 21:20:52.690  INFO 7140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 21:20:52.824  INFO 7140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 120ms. Found 5 repository interfaces.
+2019-12-12 21:20:53.342  INFO 7140 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 21:20:54.319  INFO 7140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-12 21:20:54.343  INFO 7140 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-12 21:20:54.343  INFO 7140 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-12 21:20:54.601  INFO 7140 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-12 21:20:54.603  INFO 7140 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4158 ms
+2019-12-12 21:20:54.960  INFO 7140 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-12 21:20:55.052  INFO 7140 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-12 21:20:55.206  INFO 7140 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-12 21:20:55.335  INFO 7140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-12 21:20:55.337  WARN 7140 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-12-12 21:20:55.492  INFO 7140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-12 21:20:55.513  INFO 7140 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2019-12-12 21:20:56.697  INFO 7140 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-12 21:20:56.707  INFO 7140 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-12 21:20:56.782  INFO 7140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-12 21:20:58.030  WARN 7140 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-12 21:20:58.341  INFO 7140 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-12 21:20:58.477  INFO 7140 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-12 21:20:59.238  INFO 7140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-12 21:20:59.243  INFO 7140 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Started SoulBlogApplication in 10.361 seconds (JVM running for 13.528)
+2019-12-12 21:20:59.323  INFO 7140 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-12 21:20:59.324  INFO 7140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-12 21:20:59.341  INFO 7140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2019-12-12 21:20:59.438  INFO 7140 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.toIndex', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}-------------------
+2019-12-12 21:20:59.805  WARN 7140 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-12-12 21:20:59.964  WARN 7140 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-12-12 21:20:59.976  INFO 7140 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Result ： index-------------------
+2019-12-12 21:21:02.365  INFO 7140 --- [http-nio-8080-exec-3] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:21:02.375  INFO 7140 --- [http-nio-8080-exec-3] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:21:18.615  INFO 7140 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}-------------------
+2019-12-12 21:21:18.648  INFO 7140 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Result ： types-------------------
+2019-12-12 21:21:19.565  INFO 7140 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:21:19.574  INFO 7140 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:21:21.435  INFO 7140 --- [http-nio-8080-exec-6] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.toIndex', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}-------------------
+2019-12-12 21:21:21.455  INFO 7140 --- [http-nio-8080-exec-6] com.soul.blog.aspect.LoggerAspect        : -----------Result ： index-------------------
+2019-12-12 21:21:22.213  INFO 7140 --- [http-nio-8080-exec-3] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:21:22.221  INFO 7140 --- [http-nio-8080-exec-3] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:21:39.760  INFO 7140 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 21:21:39.770  INFO 7140 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 21:21:40.547  INFO 7140 --- [http-nio-8080-exec-7] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:21:40.555  INFO 7140 --- [http-nio-8080-exec-7] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:21:41.759  INFO 7140 --- [http-nio-8080-exec-10] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.toIndex', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}-------------------
+2019-12-12 21:21:41.776  INFO 7140 --- [http-nio-8080-exec-10] com.soul.blog.aspect.LoggerAspect        : -----------Result ： index-------------------
+2019-12-12 21:21:42.464  INFO 7140 --- [http-nio-8080-exec-9] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:21:42.471  INFO 7140 --- [http-nio-8080-exec-9] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:24:15.854  INFO 7140 --- [http-nio-8080-exec-9] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 21:24:15.859  INFO 7140 --- [http-nio-8080-exec-9] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 21:24:16.668  INFO 7140 --- [http-nio-8080-exec-8] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:24:16.676  INFO 7140 --- [http-nio-8080-exec-8] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:29:51.223  INFO 7140 --- [http-nio-8080-exec-7] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.toIndex', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}-------------------
+2019-12-12 21:29:51.242  INFO 7140 --- [http-nio-8080-exec-7] com.soul.blog.aspect.LoggerAspect        : -----------Result ： index-------------------
+2019-12-12 21:29:52.100  INFO 7140 --- [http-nio-8080-exec-2] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:29:52.105  INFO 7140 --- [http-nio-8080-exec-2] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:30:07.230  INFO 7140 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], java, {}]}-------------------
+2019-12-12 21:30:07.248  INFO 7140 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Result ： search-------------------
+2019-12-12 21:30:10.286  INFO 7140 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.toIndex', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}-------------------
+2019-12-12 21:30:10.305  INFO 7140 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Result ： index-------------------
+2019-12-12 21:30:11.064  INFO 7140 --- [http-nio-8080-exec-10] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:30:11.069  INFO 7140 --- [http-nio-8080-exec-10] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:30:12.582  INFO 7140 --- [http-nio-8080-exec-6] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/blog/1', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.blog', args=[1, {}]}-------------------
+2019-12-12 21:30:12.866  INFO 7140 --- [http-nio-8080-exec-6] com.soul.blog.aspect.LoggerAspect        : -----------Result ： blog-------------------
+2019-12-12 21:30:13.787  INFO 7140 --- [http-nio-8080-exec-6] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:30:13.796  INFO 7140 --- [http-nio-8080-exec-6] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:30:14.048  INFO 7140 --- [http-nio-8080-exec-3] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/comments/1', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.CommentController.comments', args=[1, {}]}-------------------
+2019-12-12 21:30:14.112  INFO 7140 --- [http-nio-8080-exec-3] com.soul.blog.aspect.LoggerAspect        : -----------Result ： blog :: commentList-------------------
+2019-12-12 21:40:03.859  INFO 7140 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 21:40:03.865  INFO 7140 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 21:40:04.542  INFO 7140 --- [http-nio-8080-exec-7] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:40:04.549  INFO 7140 --- [http-nio-8080-exec-7] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:51:42.539  INFO 8524 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Starting SoulBlogApplication on DESKTOP-0RUOU6F with PID 8524 (F:\develop\idea_space\soul-blog\target\classes started by soul in F:\develop\idea_space\soul-blog)
+2019-12-12 21:51:42.544 DEBUG 8524 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-12 21:51:42.545  INFO 8524 --- [restartedMain] com.soul.blog.SoulBlogApplication        : The following profiles are active: dev
+2019-12-12 21:51:42.717  INFO 8524 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in F:\develop\developsoft\maven3.5\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-12-12 21:51:42.718  INFO 8524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-12 21:51:42.718  INFO 8524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-12 21:51:44.112  INFO 8524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 21:51:44.235  INFO 8524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112ms. Found 5 repository interfaces.
+2019-12-12 21:51:44.680  INFO 8524 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 21:51:45.258  INFO 8524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-12 21:51:45.270  INFO 8524 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-12 21:51:45.271  INFO 8524 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-12 21:51:45.424  INFO 8524 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-12 21:51:45.425  INFO 8524 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2705 ms
+2019-12-12 21:51:45.759  INFO 8524 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-12 21:51:45.840  INFO 8524 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-12 21:51:45.978  INFO 8524 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-12 21:51:46.102  INFO 8524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-12 21:51:46.103  WARN 8524 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-12-12 21:51:46.257  INFO 8524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-12 21:51:46.277  INFO 8524 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2019-12-12 21:51:47.371  INFO 8524 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-12 21:51:47.379  INFO 8524 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-12 21:51:47.450  INFO 8524 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-12 21:51:48.550  WARN 8524 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-12 21:51:48.807  INFO 8524 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-12 21:51:48.935  INFO 8524 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-12 21:51:49.617  INFO 8524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-12 21:51:49.621  INFO 8524 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Started SoulBlogApplication in 8.083 seconds (JVM running for 10.873)
+2019-12-12 21:52:01.307  INFO 8524 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-12 21:52:01.307  INFO 8524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-12 21:52:01.325  INFO 8524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2019-12-12 21:52:01.366  INFO 8524 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 21:52:01.379  WARN 8524 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-12-12 21:52:01.444  INFO 8524 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 21:52:02.654  INFO 8524 --- [http-nio-8080-exec-5] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:52:02.704  INFO 8524 --- [http-nio-8080-exec-5] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:52:19.247  INFO 8524 --- [http-nio-8080-exec-10] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 21:52:19.253  INFO 8524 --- [http-nio-8080-exec-10] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 21:52:20.510  INFO 8524 --- [http-nio-8080-exec-7] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:52:20.520  INFO 8524 --- [http-nio-8080-exec-7] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 21:55:04.186  INFO 13364 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Starting SoulBlogApplication on DESKTOP-0RUOU6F with PID 13364 (F:\develop\idea_space\soul-blog\target\classes started by soul in F:\develop\idea_space\soul-blog)
+2019-12-12 21:55:04.194 DEBUG 13364 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-12 21:55:04.195  INFO 13364 --- [restartedMain] com.soul.blog.SoulBlogApplication        : The following profiles are active: dev
+2019-12-12 21:55:04.432  INFO 13364 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in F:\develop\developsoft\maven3.5\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-12-12 21:55:04.433  INFO 13364 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-12 21:55:04.434  INFO 13364 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-12 21:55:06.294  INFO 13364 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 21:55:06.540  INFO 13364 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 218ms. Found 5 repository interfaces.
+2019-12-12 21:55:07.833  INFO 13364 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 21:55:09.282  INFO 13364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-12 21:55:09.317  INFO 13364 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-12 21:55:09.321  INFO 13364 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-12 21:55:09.897  INFO 13364 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-12 21:55:09.900  INFO 13364 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5464 ms
+2019-12-12 21:55:10.673  INFO 13364 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-12 21:55:10.891  INFO 13364 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-12 21:55:11.355  INFO 13364 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-12 21:55:11.702  INFO 13364 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-12 21:55:11.708  WARN 13364 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-12-12 21:55:12.044  INFO 13364 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-12 21:55:12.093  INFO 13364 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2019-12-12 21:55:13.683  INFO 13364 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-12 21:55:13.699  INFO 13364 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-12 21:55:13.793  INFO 13364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-12 21:55:15.188  WARN 13364 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-12 21:55:15.548  INFO 13364 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-12 21:55:15.993  INFO 13364 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-12 21:55:16.475  INFO 13364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-12 21:55:16.480  INFO 13364 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Started SoulBlogApplication in 14.43 seconds (JVM running for 23.372)
+2019-12-12 21:55:28.015  INFO 13364 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-12 21:55:28.015  INFO 13364 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-12 21:55:28.035  INFO 13364 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2019-12-12 21:55:28.090  INFO 13364 --- [http-nio-8080-exec-2] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 21:55:28.109  WARN 13364 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-12-12 21:55:28.193  INFO 13364 --- [http-nio-8080-exec-2] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 21:55:30.096  INFO 13364 --- [http-nio-8080-exec-9] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 21:55:30.185  INFO 13364 --- [http-nio-8080-exec-9] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 22:00:02.202  INFO 13364 --- [http-nio-8080-exec-5] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 22:00:02.209  INFO 13364 --- [http-nio-8080-exec-5] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 22:00:03.435  INFO 13364 --- [http-nio-8080-exec-10] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 22:00:03.446  INFO 13364 --- [http-nio-8080-exec-10] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 22:05:12.262  INFO 13364 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-12 22:05:12.266  INFO 13364 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-12 22:05:12.276  INFO 13364 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-12-12 22:05:12.298  INFO 13364 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-12-12 22:05:30.431  INFO 12100 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Starting SoulBlogApplication on DESKTOP-0RUOU6F with PID 12100 (F:\develop\idea_space\soul-blog\target\classes started by soul in F:\develop\idea_space\soul-blog)
+2019-12-12 22:05:30.438 DEBUG 12100 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-12 22:05:30.438  INFO 12100 --- [restartedMain] com.soul.blog.SoulBlogApplication        : The following profiles are active: dev
+2019-12-12 22:05:30.575  INFO 12100 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in F:\develop\developsoft\maven3.5\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-12-12 22:05:30.575  INFO 12100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-12 22:05:30.576  INFO 12100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-12 22:05:32.563  INFO 12100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 22:05:32.725  INFO 12100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 146ms. Found 5 repository interfaces.
+2019-12-12 22:05:33.301  INFO 12100 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 22:05:34.267  INFO 12100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-12 22:05:34.283  INFO 12100 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-12 22:05:34.284  INFO 12100 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-12 22:05:34.438  INFO 12100 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-12 22:05:34.439  INFO 12100 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3862 ms
+2019-12-12 22:05:34.844  INFO 12100 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-12 22:05:34.979  INFO 12100 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-12 22:05:35.213  INFO 12100 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-12 22:05:35.450  INFO 12100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-12 22:05:35.453  WARN 12100 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-12-12 22:05:35.744  INFO 12100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-12 22:05:35.789  INFO 12100 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2019-12-12 22:05:37.541  INFO 12100 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-12 22:05:37.554  INFO 12100 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-12 22:05:37.654  INFO 12100 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-12 22:05:39.322  WARN 12100 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-12 22:05:39.696  INFO 12100 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-12 22:05:39.950  INFO 12100 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-12 22:05:40.833  INFO 12100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-12 22:05:40.839  INFO 12100 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Started SoulBlogApplication in 12.096 seconds (JVM running for 15.988)
+2019-12-12 22:05:55.250  INFO 12100 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-12 22:05:55.250  INFO 12100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-12 22:05:55.277  INFO 12100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 27 ms
+2019-12-12 22:05:55.346  INFO 12100 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 22:05:55.365  WARN 12100 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-12-12 22:05:55.451  INFO 12100 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 22:05:57.390  INFO 12100 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 22:05:57.456  INFO 12100 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 22:06:23.612  INFO 12100 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-12 22:06:23.615  INFO 12100 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-12 22:06:23.621  INFO 12100 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-12-12 22:06:23.636  INFO 12100 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-12-12 22:07:53.747  INFO 15640 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Starting SoulBlogApplication on DESKTOP-0RUOU6F with PID 15640 (F:\develop\idea_space\soul-blog\target\classes started by soul in F:\develop\idea_space\soul-blog)
+2019-12-12 22:07:53.770 DEBUG 15640 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-12 22:07:53.772  INFO 15640 --- [restartedMain] com.soul.blog.SoulBlogApplication        : The following profiles are active: dev
+2019-12-12 22:07:54.052  INFO 15640 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in F:\develop\developsoft\maven3.5\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-12-12 22:07:54.053  INFO 15640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-12 22:07:54.054  INFO 15640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-12 22:07:55.420  INFO 15640 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 22:07:55.610  INFO 15640 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 171ms. Found 5 repository interfaces.
+2019-12-12 22:07:56.424  INFO 15640 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 22:07:57.361  INFO 15640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-12 22:07:57.381  INFO 15640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-12 22:07:57.382  INFO 15640 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-12 22:07:57.702  INFO 15640 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-12 22:07:57.703  INFO 15640 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3647 ms
+2019-12-12 22:07:58.021  INFO 15640 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-12 22:07:58.131  INFO 15640 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-12 22:07:58.429  INFO 15640 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-12 22:07:58.615  INFO 15640 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-12 22:07:58.617  WARN 15640 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-12-12 22:07:58.910  INFO 15640 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-12 22:07:58.950  INFO 15640 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2019-12-12 22:08:00.721  INFO 15640 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-12 22:08:00.761  INFO 15640 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-12 22:08:00.901  INFO 15640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-12 22:08:02.844  WARN 15640 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-12 22:08:03.260  INFO 15640 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-12 22:08:03.798  INFO 15640 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-12 22:08:04.491  INFO 15640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-12 22:08:04.497  INFO 15640 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Started SoulBlogApplication in 12.297 seconds (JVM running for 16.901)
+2019-12-12 22:08:13.449  INFO 15640 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-12 22:08:13.449  INFO 15640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-12 22:08:13.477  INFO 15640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 27 ms
+2019-12-12 22:08:13.550  INFO 15640 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 22:08:13.573  WARN 15640 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-12-12 22:08:13.713  INFO 15640 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 22:08:15.717  INFO 15640 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 22:08:15.779  INFO 15640 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 22:10:09.775  INFO 15640 --- [http-nio-8080-exec-3] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 22:10:09.781  INFO 15640 --- [http-nio-8080-exec-3] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 22:10:11.190  INFO 15640 --- [http-nio-8080-exec-9] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 22:10:11.200  INFO 15640 --- [http-nio-8080-exec-9] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 22:10:37.768  INFO 15640 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 22:10:37.774  INFO 15640 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 22:10:38.677  INFO 15640 --- [http-nio-8080-exec-9] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 22:10:38.687  INFO 15640 --- [http-nio-8080-exec-9] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 22:12:25.170  INFO 15640 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 22:12:25.176  INFO 15640 --- [http-nio-8080-exec-4] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 22:12:26.065  INFO 15640 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 22:12:26.074  INFO 15640 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 22:13:35.430  INFO 15640 --- [http-nio-8080-exec-5] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 22:13:35.437  INFO 15640 --- [http-nio-8080-exec-5] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 22:13:36.297  INFO 15640 --- [http-nio-8080-exec-8] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 22:13:36.307  INFO 15640 --- [http-nio-8080-exec-8] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 22:17:15.533  INFO 15640 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 22:17:15.544  INFO 15640 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 22:17:16.637  INFO 15640 --- [http-nio-8080-exec-2] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 22:17:16.670  INFO 15640 --- [http-nio-8080-exec-2] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 22:20:07.868  INFO 15640 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-12 22:20:07.870  INFO 15640 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-12 22:20:07.875  INFO 15640 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-12-12 22:20:07.888  INFO 15640 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-12-12 22:20:17.174  INFO 10140 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Starting SoulBlogApplication on DESKTOP-0RUOU6F with PID 10140 (F:\develop\idea_space\soul-blog\target\classes started by soul in F:\develop\idea_space\soul-blog)
+2019-12-12 22:20:17.273 DEBUG 10140 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-12 22:20:17.273  INFO 10140 --- [restartedMain] com.soul.blog.SoulBlogApplication        : The following profiles are active: dev
+2019-12-12 22:20:17.391  INFO 10140 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in F:\develop\developsoft\maven3.5\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/F:/develop/developsoft/maven3.5/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2019-12-12 22:20:17.392  INFO 10140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-12 22:20:17.393  INFO 10140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-12 22:20:19.397  INFO 10140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 22:20:19.720  INFO 10140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 302ms. Found 5 repository interfaces.
+2019-12-12 22:20:20.428  INFO 10140 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 22:20:21.366  INFO 10140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-12 22:20:21.381  INFO 10140 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-12 22:20:21.382  INFO 10140 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-12 22:20:21.567  INFO 10140 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-12 22:20:21.568  INFO 10140 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4175 ms
+2019-12-12 22:20:22.010  INFO 10140 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-12 22:20:22.141  INFO 10140 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-12 22:20:22.391  INFO 10140 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-12 22:20:22.545  INFO 10140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-12 22:20:22.547  WARN 10140 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-12-12 22:20:22.727  INFO 10140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-12 22:20:22.753  INFO 10140 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2019-12-12 22:20:23.990  INFO 10140 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-12 22:20:24.001  INFO 10140 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-12 22:20:24.083  INFO 10140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-12 22:20:25.213  WARN 10140 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-12 22:20:25.473  INFO 10140 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-12 22:20:25.608  INFO 10140 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-12 22:20:26.328  INFO 10140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-12 22:20:26.332  INFO 10140 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Started SoulBlogApplication in 10.433 seconds (JVM running for 13.406)
+2019-12-12 22:20:30.377  INFO 10140 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-12 22:20:30.377  INFO 10140 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-12 22:20:30.395  INFO 10140 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2019-12-12 22:20:30.444  INFO 10140 --- [http-nio-8080-exec-2] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 22:20:30.459  WARN 10140 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-12-12 22:20:30.535  INFO 10140 --- [http-nio-8080-exec-2] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 22:20:32.194  INFO 10140 --- [http-nio-8080-exec-8] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 22:20:32.254  INFO 10140 --- [http-nio-8080-exec-8] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 22:20:57.710  INFO 10140 --- [http-nio-8080-exec-10] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 22:20:57.718  INFO 10140 --- [http-nio-8080-exec-10] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 22:20:57.789 ERROR 10140 --- [http-nio-8080-exec-10] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-10] Exception processing template "about": Error resolving template [about], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [about], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-12-12 22:20:57.793 ERROR 10140 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [about], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [about], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-12-12 22:21:00.747  INFO 10140 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-12 22:21:00.749  INFO 10140 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-12 22:21:00.756  INFO 10140 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-12-12 22:21:00.768  INFO 10140 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-12-12 22:21:03.897  INFO 10140 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Starting SoulBlogApplication on DESKTOP-0RUOU6F with PID 10140 (F:\develop\idea_space\soul-blog\target\classes started by soul in F:\develop\idea_space\soul-blog)
+2019-12-12 22:21:03.897 DEBUG 10140 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-12 22:21:03.898  INFO 10140 --- [restartedMain] com.soul.blog.SoulBlogApplication        : The following profiles are active: dev
+2019-12-12 22:21:04.710  INFO 10140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 22:21:04.712  INFO 10140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1ms. Found 0 repository interfaces.
+2019-12-12 22:21:04.797  INFO 10140 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 22:21:04.893  WARN 10140 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2019-12-12 22:21:04.980  INFO 10140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-12 22:21:04.981  INFO 10140 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-12 22:21:04.982  INFO 10140 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-12 22:21:05.013  INFO 10140 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-12 22:21:05.014  INFO 10140 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1106 ms
+2019-12-12 22:21:05.086  INFO 10140 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-12 22:21:05.092  INFO 10140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2019-12-12 22:21:05.093  WARN 10140 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-12-12 22:21:05.103  INFO 10140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2019-12-12 22:21:05.103  INFO 10140 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2019-12-12 22:21:05.222  INFO 10140 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-12 22:21:05.222  INFO 10140 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-12 22:21:05.255  INFO 10140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-12 22:21:05.314  WARN 10140 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-12 22:21:05.575  INFO 10140 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-12 22:21:05.709  INFO 10140 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-12 22:21:06.075  INFO 10140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-12 22:21:06.077  INFO 10140 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Started SoulBlogApplication in 2.279 seconds (JVM running for 53.151)
+2019-12-12 22:21:06.080  INFO 10140 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-12-12 22:21:07.655  INFO 10140 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-12 22:21:07.656  INFO 10140 --- [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-12 22:21:07.658  INFO 10140 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2019-12-12 22:21:07.669  INFO 10140 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2019-12-12 22:21:10.223  INFO 10140 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Starting SoulBlogApplication on DESKTOP-0RUOU6F with PID 10140 (F:\develop\idea_space\soul-blog\target\classes started by soul in F:\develop\idea_space\soul-blog)
+2019-12-12 22:21:10.224 DEBUG 10140 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-12 22:21:10.224  INFO 10140 --- [restartedMain] com.soul.blog.SoulBlogApplication        : The following profiles are active: dev
+2019-12-12 22:21:10.866  INFO 10140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 22:21:10.910  INFO 10140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44ms. Found 5 repository interfaces.
+2019-12-12 22:21:11.026  INFO 10140 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 22:21:11.160  WARN 10140 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2019-12-12 22:21:11.241  INFO 10140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-12 22:21:11.242  INFO 10140 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-12 22:21:11.243  INFO 10140 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-12 22:21:11.272  INFO 10140 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-12 22:21:11.273  INFO 10140 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 954 ms
+2019-12-12 22:21:11.387  INFO 10140 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-12 22:21:11.393  INFO 10140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2019-12-12 22:21:11.394  WARN 10140 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-12-12 22:21:11.400  INFO 10140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2019-12-12 22:21:11.400  INFO 10140 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2019-12-12 22:21:11.712  INFO 10140 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-12 22:21:11.713  INFO 10140 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-12 22:21:11.776  INFO 10140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-12 22:21:13.646  WARN 10140 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-12 22:21:14.855  INFO 10140 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-12 22:21:15.103  INFO 10140 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-12 22:21:15.774  INFO 10140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-12 22:21:15.776  INFO 10140 --- [restartedMain] com.soul.blog.SoulBlogApplication        : Started SoulBlogApplication in 6.036 seconds (JVM running for 62.85)
+2019-12-12 22:21:15.779  INFO 10140 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-12-12 22:21:31.839  INFO 10140 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-12 22:21:31.840  INFO 10140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-12 22:21:31.857  INFO 10140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2019-12-12 22:21:31.862  INFO 10140 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 22:21:31.872  WARN 10140 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-12-12 22:21:31.878  INFO 10140 --- [http-nio-8080-exec-1] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 22:21:33.240  INFO 10140 --- [http-nio-8080-exec-8] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 22:21:33.270  INFO 10140 --- [http-nio-8080-exec-8] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 22:23:42.665  INFO 10140 --- [http-nio-8080-exec-7] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.toIndex', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}-------------------
+2019-12-12 22:23:42.747  WARN 10140 --- [http-nio-8080-exec-7] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-12-12 22:23:42.755  INFO 10140 --- [http-nio-8080-exec-7] com.soul.blog.aspect.LoggerAspect        : -----------Result ： index-------------------
+2019-12-12 22:23:43.672  INFO 10140 --- [http-nio-8080-exec-3] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 22:23:43.681  INFO 10140 --- [http-nio-8080-exec-3] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 22:23:44.748  INFO 10140 --- [http-nio-8080-exec-9] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.ArchiveShowController.archives', args=[{}]}-------------------
+2019-12-12 22:23:44.770  INFO 10140 --- [http-nio-8080-exec-9] com.soul.blog.aspect.LoggerAspect        : -----------Result ： archives-------------------
+2019-12-12 22:23:45.399  INFO 10140 --- [http-nio-8080-exec-8] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 22:23:45.404  INFO 10140 --- [http-nio-8080-exec-8] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 22:23:46.693  INFO 10140 --- [http-nio-8080-exec-3] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 22:23:46.697  INFO 10140 --- [http-nio-8080-exec-3] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 22:23:47.427  INFO 10140 --- [http-nio-8080-exec-6] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 22:23:47.434  INFO 10140 --- [http-nio-8080-exec-6] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 22:24:20.320  INFO 10140 --- [http-nio-8080-exec-2] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.toIndex', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}-------------------
+2019-12-12 22:24:20.338  INFO 10140 --- [http-nio-8080-exec-2] com.soul.blog.aspect.LoggerAspect        : -----------Result ： index-------------------
+2019-12-12 22:24:21.089  INFO 10140 --- [http-nio-8080-exec-9] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 22:24:21.094  INFO 10140 --- [http-nio-8080-exec-9] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 22:24:28.596  INFO 10140 --- [http-nio-8080-exec-7] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}-------------------
+2019-12-12 22:24:28.616  INFO 10140 --- [http-nio-8080-exec-7] com.soul.blog.aspect.LoggerAspect        : -----------Result ： types-------------------
+2019-12-12 22:24:29.262  INFO 10140 --- [http-nio-8080-exec-10] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 22:24:29.268  INFO 10140 --- [http-nio-8080-exec-10] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 22:24:34.664  INFO 10140 --- [http-nio-8080-exec-5] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}-------------------
+2019-12-12 22:24:34.720  INFO 10140 --- [http-nio-8080-exec-5] com.soul.blog.aspect.LoggerAspect        : -----------Result ： tags-------------------
+2019-12-12 22:24:35.418  INFO 10140 --- [http-nio-8080-exec-10] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 22:24:35.426  INFO 10140 --- [http-nio-8080-exec-10] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 22:24:39.394  INFO 10140 --- [http-nio-8080-exec-2] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.ArchiveShowController.archives', args=[{}]}-------------------
+2019-12-12 22:24:39.406  INFO 10140 --- [http-nio-8080-exec-2] com.soul.blog.aspect.LoggerAspect        : -----------Result ： archives-------------------
+2019-12-12 22:24:40.029  INFO 10140 --- [http-nio-8080-exec-5] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 22:24:40.037  INFO 10140 --- [http-nio-8080-exec-5] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 22:24:43.237  INFO 10140 --- [http-nio-8080-exec-6] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 22:24:43.241  INFO 10140 --- [http-nio-8080-exec-6] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 22:24:44.048  INFO 10140 --- [http-nio-8080-exec-9] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 22:24:44.057  INFO 10140 --- [http-nio-8080-exec-9] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------
+2019-12-12 22:25:10.224  INFO 10140 --- [http-nio-8080-exec-3] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.AboutShowController.about', args=[{}]}-------------------
+2019-12-12 22:25:10.228  INFO 10140 --- [http-nio-8080-exec-3] com.soul.blog.aspect.LoggerAspect        : -----------Result ： about-------------------
+2019-12-12 22:25:11.623  INFO 10140 --- [http-nio-8080-exec-6] com.soul.blog.aspect.LoggerAspect        : -----------Request ： RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.soul.blog.controller.IndexController.newblogs', args=[{}]}-------------------
+2019-12-12 22:25:11.631  INFO 10140 --- [http-nio-8080-exec-6] com.soul.blog.aspect.LoggerAspect        : -----------Result ： _fragments :: newblogList-------------------

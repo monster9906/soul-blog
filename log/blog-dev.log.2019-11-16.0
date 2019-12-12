@@ -1,0 +1,6 @@
+2019-11-16 23:35:43.680  INFO 63500 --- [main] c.s.b.soulblog.SoulBlogApplicationTests  : Starting SoulBlogApplicationTests on DESKTOP-0RUOU6F with PID 63500 (started by soul in F:\develop\idea_space\soul-blog)
+2019-11-16 23:35:43.682  INFO 63500 --- [main] c.s.b.soulblog.SoulBlogApplicationTests  : The following profiles are active: dev
+2019-11-16 23:35:46.311  INFO 63500 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-16 23:35:46.462  INFO 63500 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-16 23:35:47.032  INFO 63500 --- [main] c.s.b.soulblog.SoulBlogApplicationTests  : Started SoulBlogApplicationTests in 4.574 seconds (JVM running for 6.662)
+2019-11-16 23:35:47.500  INFO 63500 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
